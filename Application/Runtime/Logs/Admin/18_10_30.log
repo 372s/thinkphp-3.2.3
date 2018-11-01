@@ -1,0 +1,245 @@
+[ 2018-10-30T15:27:28+08:00 ] 127.0.0.1 /admin.php?=/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2] DOMDocument::loadHTML(): Tag back-top invalid in Entity, line: 55 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag plain-dialog invalid in Entity, line: 59 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 63 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 71 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 72 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 72 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 94 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 95 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 102 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 103 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 113 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 131 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag share-sns invalid in Entity, line: 138 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 142 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag share-sns invalid in Entity, line: 143 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag comment-list invalid in Entity, line: 148 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag apk-banner-m invalid in Entity, line: 152 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag art-feed invalid in Entity, line: 155 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag imgs-reader invalid in Entity, line: 158 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 162 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag life-service invalid in Entity, line: 162 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 166 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 169 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 190 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 194 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 202 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag web-clip invalid in Entity, line: 203 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+
+[ 2018-10-30T15:28:28+08:00 ] 127.0.0.1 /admin.php?s=/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2] DOMDocument::loadHTML(): Tag back-top invalid in Entity, line: 55 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag plain-dialog invalid in Entity, line: 59 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 63 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 71 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 72 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 72 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 94 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 95 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 102 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 103 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 113 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 131 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag share-sns invalid in Entity, line: 138 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 142 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag share-sns invalid in Entity, line: 143 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag comment-list invalid in Entity, line: 148 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag apk-banner-m invalid in Entity, line: 152 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag art-feed invalid in Entity, line: 155 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag imgs-reader invalid in Entity, line: 158 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 162 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag life-service invalid in Entity, line: 162 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 166 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 169 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 190 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 194 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 202 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag web-clip invalid in Entity, line: 203 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+
+[ 2018-10-30T16:03:53+08:00 ] 127.0.0.1 /admin.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Tag back-top invalid in Entity, line: 55 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag plain-dialog invalid in Entity, line: 59 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 63 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 71 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 72 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 72 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 94 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 95 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 102 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 103 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 113 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 131 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag share-sns invalid in Entity, line: 138 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 142 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag share-sns invalid in Entity, line: 143 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag comment-list invalid in Entity, line: 148 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag apk-banner-m invalid in Entity, line: 152 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag art-feed invalid in Entity, line: 155 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag imgs-reader invalid in Entity, line: 158 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 162 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag life-service invalid in Entity, line: 162 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 166 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 169 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 190 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 194 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 202 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag web-clip invalid in Entity, line: 203 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+
+[ 2018-10-30T16:03:56+08:00 ] 127.0.0.1 /admin.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2] DOMDocument::loadHTML(): Tag back-top invalid in Entity, line: 55 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag plain-dialog invalid in Entity, line: 59 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 63 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 71 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 72 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 72 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 94 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 95 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 102 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 103 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 113 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 131 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag share-sns invalid in Entity, line: 138 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 142 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag share-sns invalid in Entity, line: 143 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag comment-list invalid in Entity, line: 148 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag apk-banner-m invalid in Entity, line: 152 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag art-feed invalid in Entity, line: 155 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag imgs-reader invalid in Entity, line: 158 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 162 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag life-service invalid in Entity, line: 162 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 166 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 169 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 190 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 194 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 202 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag web-clip invalid in Entity, line: 203 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+
+[ 2018-10-30T16:04:00+08:00 ] 127.0.0.1 /admin.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2] DOMDocument::loadHTML(): Tag back-top invalid in Entity, line: 55 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag plain-dialog invalid in Entity, line: 59 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 63 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 71 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 72 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 72 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 94 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 95 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 102 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 103 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 113 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 131 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag share-sns invalid in Entity, line: 138 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 142 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag share-sns invalid in Entity, line: 143 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag comment-list invalid in Entity, line: 148 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag apk-banner-m invalid in Entity, line: 152 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag art-feed invalid in Entity, line: 155 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag imgs-reader invalid in Entity, line: 158 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 162 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag life-service invalid in Entity, line: 162 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 166 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 169 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 190 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 194 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 202 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag web-clip invalid in Entity, line: 203 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+
+[ 2018-10-30T16:04:03+08:00 ] 127.0.0.1 /admin.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2] DOMDocument::loadHTML(): Tag back-top invalid in Entity, line: 55 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag plain-dialog invalid in Entity, line: 59 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 63 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 71 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 72 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 72 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 94 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 95 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 102 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 103 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 113 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 131 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag share-sns invalid in Entity, line: 138 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 142 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag share-sns invalid in Entity, line: 143 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag comment-list invalid in Entity, line: 148 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag apk-banner-m invalid in Entity, line: 152 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag art-feed invalid in Entity, line: 155 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag imgs-reader invalid in Entity, line: 158 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 162 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag life-service invalid in Entity, line: 162 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 166 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 169 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 190 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 194 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 202 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag web-clip invalid in Entity, line: 203 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+
+[ 2018-10-30T16:04:56+08:00 ] 127.0.0.1 /admin.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2] DOMDocument::loadHTML(): Tag back-top invalid in Entity, line: 55 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag plain-dialog invalid in Entity, line: 59 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 63 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 71 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 72 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 72 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 94 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 95 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 102 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 103 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 113 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 131 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag share-sns invalid in Entity, line: 138 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 142 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag share-sns invalid in Entity, line: 143 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag comment-list invalid in Entity, line: 148 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag apk-banner-m invalid in Entity, line: 152 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag art-feed invalid in Entity, line: 155 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag imgs-reader invalid in Entity, line: 158 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 162 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag life-service invalid in Entity, line: 162 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 166 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 169 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 190 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 194 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 202 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag web-clip invalid in Entity, line: 203 E:\laragon\www\thinkphp-3.2.3\ThinkPHP\Library\Vendor\php-query\phpQuery\DOMDocumentWrapper.php 第 199 行.
+
