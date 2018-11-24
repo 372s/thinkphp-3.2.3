@@ -8,6 +8,7 @@ Vendor('phpQuery.phpQuery');
 
 class IndexController extends Controller {
     public function index(){
+        // TODO Common 目录怎么使用
         echo test();die;
         $key = '123456';
         $str = '[{"url":"http://www.baidu12341234132413241234.com"},{"url":"http://www.baidu12341234132413241234.com"}]';
