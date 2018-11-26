@@ -1,10 +1,22 @@
 <?php
 namespace Home\Controller;
+
 use Think\Controller;
 use Think\Log;
 
+use Think\Crypt;
+
+Vendor('phpQuery.phpQuery');
+
 class IndexController extends Controller {
     public function index(){
+        // TODO Common 目录怎么使用
+        echo test();die;
+        $key = '123456';
+        $str = '[{"url":"http://www.baidu12341234132413241234.com"},{"url":"http://www.baidu12341234132413241234.com"}]';
+        $cr = Crypt::encrypt($str, $key);
+        echo strlen($cr);die;
+        echo $cr;die;
         $date = new \Org\Util\Date();
         Log::record('测试LOG', 'DEBUG');
         print_r($date);die;
@@ -13,7 +25,6 @@ class IndexController extends Controller {
 
     public function sohu() {
         import("Org.Util.PHPQuery");
-        die;
         $html = file_get_contents('https://m.sohu.com/a/216335910_660408/?pvid=000115_3w_a');
         $doc = \phpQuery::newDocumentHTML($html);
         // $h2 = $doc->find('h2[class="title-info"]')->text();
@@ -28,7 +39,7 @@ class IndexController extends Controller {
     }
 
     public function sh() {
-        Vendor('php-query.phpQuery');
+
         $doc = \phpQuery::newDocumentFile('http://edu.zynews.cn/e/wap/');
         $t = $doc->html();
         $t = mb_convert_encoding($t,'ISO-8859-1','utf-8');
