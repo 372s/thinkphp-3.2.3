@@ -1,15 +1,14 @@
 <?php
 namespace Home\Controller;
 
-use Think\Controller;
 use Think\Crypt;
 
 Vendor('phpQuery.phpQuery');
 
-class IndexController extends Controller {
+class IndexController extends BaseController {
     public function index(){
         // TODO Common 目录怎么使用
-        echo test();die;
+        // echo test();die;
         $key = '123456';
         $str = '[{"url":"http://www.baidu12341234132413241234.com"},{"url":"http://www.baidu12341234132413241234.com"}]';
         $cr = Crypt::encrypt($str, $key);
