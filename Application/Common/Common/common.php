@@ -1,5 +1,5 @@
 <?php
 
-function test() {
-    echo 2;
+function dpe() {
+    return 2;
 }
