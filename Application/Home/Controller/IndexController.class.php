@@ -7,10 +7,21 @@ use Think\Crypt;
 Vendor('phpQuery.phpQuery');
 
 class IndexController extends BaseController {
+    private $keywords = array(
+        '不得转载', '责任编辑', '本文来源','原标题', '原文链接', '作者', '版权声明',
+        '公众号', '一点号', '微信号', '头条号', '微信平台', '蓝字', '搜狐知道', '新浪女性',
+        '加威信', '加微心', '关注我们', '关注我',
+    );
+
     public function index(){
-        // Log::record('测试LOG', 'DEBUG');
-        // TODO Common 目录怎么使用
-        // echo test();die;
+        // TODO: Common 目录怎么使用
+        // echo dpe();die;
+        // 测试LOG
+        Log::record('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>', 'INFO');
+        Log::record('ID:5461313213', 'INFO');
+        print_r($this->keywords);die;
+        // 测试加密
+
         $key = '123456';
         $str = '[{"url":"http://www.baidu12341234132413241234.com"},{"url":"http://www.baidu12341234132413241234.com"}]';
         $cr = Crypt::encrypt($str, $key);
