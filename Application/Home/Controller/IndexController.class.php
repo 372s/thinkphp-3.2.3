@@ -7,18 +7,12 @@ use Think\Crypt;
 Vendor('phpQuery.phpQuery');
 
 class IndexController extends BaseController {
-    private $keywords = array(
-        '不得转载', '责任编辑', '本文来源','原标题', '原文链接', '作者', '版权声明',
-        '公众号', '一点号', '微信号', '头条号', '微信平台', '蓝字', '搜狐知道', '新浪女性',
-        '加威信', '加微心', '关注我们', '关注我',
-    );
 
     public function index(){
         // TODO: Common 目录怎么使用
         // echo dpe();die;
         // 测试LOG
-        Log::record('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>', 'INFO');
-        Log::record('ID:5461313213', 'INFO');
+        Log::record('ID:5461313213', 'DEBUG');
         print_r($this->keywords);die;
         // 测试加密
 
@@ -29,39 +23,34 @@ class IndexController extends BaseController {
         $this->show('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>','utf-8');
     }
 
-    public function sohu() {
-        import("Org.Util.PHPQuery");
-        $html = file_get_contents('https://m.sohu.com/a/216335910_660408/?pvid=000115_3w_a');
-        $doc = \phpQuery::newDocumentHTML($html);
-        // $h2 = $doc->find('h2[class="title-info"]')->text();
+    public function toutiao() {
+        $arr = range(1, 1);
+        foreach ($arr as $i) {
+            $url = 'http://47.244.140.215:8091/feeds/toutiao?pageNo='.$i.'&num=20';
+            $json = file_get_contents($url);
+            $data = json_decode($json, true);
+            foreach ($data['articles'] as $value) {
+                $id = $value['newsId'];
+                $title = $value['title'];
+                $url = $value['real_url'];
+                $content = $value['content'];
+                if (json_decode($content, true)) {
+                    continue;
+                }
 
-        // $content1 = $doc->find('div[class="display-content"]')->html();
-        // $content2 = $doc->find('div[class="hidden-content hide"]')->html();
-        // $content2 = $doc->find('section[id="articleContent"]')->remove('div[class="hidden-content"]')->html();
-        $lookallbox = $doc->find('div[class="lookall-box"]')->html();
-        $content2 = $doc->find('section[id="articleContent"]')->remove('div[class="lookall-box"]')->html();
-        // $content2 = str_replace($lookallbox, '', $content2);
-        print_r($content2);
+                $cate = $value['category'];
+                echo $id . "<br>";
+                echo $url . "<br>";
+                $content = $this->format($content);
+                $content = $this->finder($content);
+                // Log::record('[url] ' . $url, 'DEBUG');
+                // Log::record('[content] ' . $content, 'DEBUG');
+                if ($this->strlt100($content)) {
+                    continue;
+                }
+                echo $content . "<br>";
+            }
+        }
     }
 
-    public function sh() {
-
-        $doc = \phpQuery::newDocumentFile('http://edu.zynews.cn/e/wap/');
-        $t = $doc->html();
-        $t = mb_convert_encoding($t,'ISO-8859-1','utf-8');
-        $t = mb_convert_encoding($t,'utf-8','GBK');
-        echo $t;die;
-
-        // $html = file_get_contents('https://m.sohu.com/a/216335910_660408/?pvid=000115_3w_a');
-        // $doc = \phpQuery::newDocumentHTML($html);
-        $doc = \phpQuery::newDocumentFile('https://m.sohu.com/a/216335910_660408/?pvid=000115_3w_a');
-        // $h2 = pq('h2[class="title-info"]')->text();
-
-        $content = $doc->find('#articleContent');
-        $content->find('.lookall-box')->remove();
-        $content->find('.article-tags')->remove();
-        // $content->find('.statement')->remove();
-        $content = $content->html();
-        print_r($content);die;
-    }
 }
