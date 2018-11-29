@@ -1,27 +1,20 @@
 <?php
 namespace Home\Controller;
 
-use Think\Controller;
 use Think\Log;
 use Think\Crypt;
 
 Vendor('phpQuery.phpQuery');
 
-class IndexController extends Controller {
+class IndexController extends BaseController {
     public function index(){
         // TODO Common 目录怎么使用
-        echo dpe();die;
 
         // 测试加密
         $key = '123456';
         $str = '[{"url":"http://www.baidu12341234132413241234.com"},{"url":"http://www.baidu12341234132413241234.com"}]';
         $cr = Crypt::encrypt($str, $key);
-        echo strlen($cr);die;
         echo $cr;die;
-
-        // Date
-        $date = new \Org\Util\Date();
-        print_r($date);die;
 
         // 测试LOG
         Log::record('测试LOG', 'DEBUG');
