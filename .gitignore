@@ -1,3 +1,4 @@
 .idea
 Application/Runtime/Logs/Admin/*.log
 Application/Runtime/Logs/Home/*.log
+Public/uploads
