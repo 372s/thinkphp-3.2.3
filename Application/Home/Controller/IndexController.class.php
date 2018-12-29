@@ -15,12 +15,7 @@ class IndexController extends BaseController {
     public function index(){
         // TODO: Common 目录怎么使用
         // echo dpe();die;
-
-        $h = file_get_contents('https://mbd.baidu.com/newspage/data/landingshare?context=%7B%22nid%22%3A%22news_9844321684069543017%22%2C%22sourceFrom%22%3A%22bjh%22%7D&type=news');
-        echo $h;die;
-        $img = "https://f12.baidu.com/it/?u=2674946297,2122048651&fm=173&app=49&f=JPEG?w=640&h=480&s=D77816C50C72ECD65A3FF8240300B058&access=215967316";
-        $res = file_get_contents($img);
-        var_dump($res);die;
+        // echo 11;die;
         $im = new Image(2, $img);
         print_r($im);die;
 
