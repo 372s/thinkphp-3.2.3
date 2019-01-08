@@ -1,5 +1,5 @@
 .idea
 *.log
-Application/Runtime/Cache
-Application/Runtime/Cache/*.php
+Application/Runtime/Cache/
+Application/Runtime/*.php
 Public/uploads
