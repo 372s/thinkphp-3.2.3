@@ -1,4 +1,4 @@
 .idea
-Application/Runtime/Logs/Admin/*.log
-Application/Runtime/Logs/Home/*.log
+*.log
+/Application/Runtime/Cache/*/*.php
 Public/uploads
