@@ -1,4 +1,4 @@
 .idea
 *.log
-/Application/Runtime/Cache/
+Application/Runtime/Cache/
 Public/uploads
