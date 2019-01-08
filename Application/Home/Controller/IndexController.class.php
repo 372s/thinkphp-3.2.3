@@ -61,7 +61,7 @@ class IndexController extends BaseController {
                 if ($this->strlt100($content)) {
                     continue;
                 }
-                echo $content . "<br>";
+                echo $content . "<br>";die;
             }
         }
     }
